@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="im_main:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/im_main_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="im_main" />
+          <element id="module-output" name="im" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.41" />
+          <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.41" />
+          <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.41" />
+          <element id="library" level="project" name="Gradle: com.sun.mail:javax.mail:1.6.0" />
+          <element id="library" level="project" name="Gradle: org.jetbrains:annotations:13.0" />
+          <element id="library" level="project" name="Gradle: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Gradle: javax:javaee-api:8.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="im_main/web/Web Gradle : im-1.0-SNAPSHOT.war" />
+    </root>
+  </artifact>
+</component>
